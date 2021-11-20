@@ -18,14 +18,14 @@ import sys
 #  6. INTEGER_ARRAY oranges
 #
 
-def countApples(self, s, t, a, apples):
+def countApples(s, t, a, apples):
     toReturn = []
     for apple in apples:
         if apple+a >= s and apple+a <= t:
             toReturn.append(apple)
     return len(toReturn)
 
-def countOranges(self, s, t, b, oranges):
+def countOranges(s, t, b, oranges):
     toReturn = []
     for orange in oranges:
         if orange+b >= s and orange+b <= t:
@@ -34,8 +34,8 @@ def countOranges(self, s, t, b, oranges):
 
 def countApplesAndOranges(s, t, a, b, apples, oranges):
     # Write your code here
-    print(countApples(self, s, t, a, apples))
-    print(countOranges(self, s, t, b, oranges))
+    print(countApples(s, t, a, apples))
+    print(countOranges(s, t, b, oranges))
 
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()
