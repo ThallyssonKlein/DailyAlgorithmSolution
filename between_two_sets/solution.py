@@ -16,9 +16,6 @@ import sys
 #
 
 def getTotalX(a, b):
-    print(a)
-    print(b)
-    
     finalSelecteds = []
     
     x = 1
